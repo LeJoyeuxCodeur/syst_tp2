@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read tmp
+
+while [ "$tmp" != "FINI" ]
+do
+	echo "$tmp"
+	read tmp
+done

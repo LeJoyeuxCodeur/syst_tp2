@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Saisissez oui ou non"
+read tmp
+
+while [ "$tmp" != "oui" ] && [ "$tmp" != "non" ]
+do
+	echo "Saisissez oui ou non"
+	read tmp
+done
